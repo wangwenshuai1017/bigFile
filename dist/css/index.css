@@ -1,0 +1,7 @@
+body {
+  background: pink; }
+
+div {
+  background: blue; }
+  div p {
+    font-size: 20px; }
