@@ -1,7 +1,224 @@
-body {
-  background: pink; }
+@charset "UTF-8";
+body, ul, li, dl, dt, dd, p, ol, h1, h2, h3, h4, h5, h6, form, img, table, fieldset, legend, input {
+  margin: 0;
+  padding: 0; }
 
-div {
-  background: blue; }
-  div p {
-    font-size: 20px; }
+ul, li, ol {
+  list-style: none; }
+
+img, fieldset {
+  border: 0; }
+
+img {
+  display: block; }
+
+a {
+  text-decoration: none;
+  color: #333; }
+
+h1, h2, h3, h4, h5, h6 {
+  font-weight: 100; }
+
+body {
+  font-family: "微软雅黑"; }
+
+input, a {
+  outline: none; }
+
+body {
+  height: 1000px; }
+
+header, .ad, .sousuo, .liebiao {
+  margin: auto; }
+
+.warp {
+  width: 100%;
+  background: #f2f2f2; }
+
+#home {
+  float: left;
+  text-indent: 18px;
+  background: url(../images/logo.png) no-repeat -4px -234px; }
+
+.warp header {
+  width: 1190px;
+  height: 31px;
+  background: #f2f2f2;
+  line-height: 31px;
+  font-size: 12px; }
+  .warp header a {
+    float: left;
+    text-indent: 18px; }
+  .warp header ul {
+    list-style: none;
+    float: right; }
+    .warp header ul li {
+      float: left;
+      height: 10px;
+      border-right: 1px solid #000000;
+      height: 31px;
+      padding: 0 15px; }
+    .warp header ul li:nth-child(2) a {
+      background: url(../images/logo.png) no-repeat -4px -528px;
+      text-indent: 20px; }
+    .warp header ul li:nth-child(3) a {
+      background: url(../images/logo.png) no-repeat -4px -420px;
+      text-indent: 28px; }
+    .warp header ul li:nth-child(4) a {
+      background: url(../images/logo.png) no-repeat 68px -335px; }
+      .warp header ul li:nth-child(4) a {
+        padding-right: 15px; }
+    .warp header ul li:nth-child(5) a {
+      background: url(../images/logo.png) no-repeat 0px -566px, url(../images/logo.png) no-repeat 76px -335px;
+      text-indent: 28px; }
+      .warp header ul li:nth-child(5) a {
+        padding-right: 12px; }
+
+.warp1 {
+  width: 100%;
+  background: #ff7cb7; }
+
+.ad {
+  width: 1190px;
+  text-align: center; }
+
+.sousuo {
+  width: 1190px;
+  height: 90px; }
+  .sousuo #left {
+    display: block;
+    float: left;
+    width: 220px;
+    height: 90px; }
+  .sousuo #right {
+    display: block;
+    width: 220px;
+    height: 90px;
+    float: right; }
+
+#sear {
+  float: left;
+  width: 484px;
+  height: 90px;
+  margin: 20px 0 0 120px; }
+
+#chou {
+  float: left;
+  width: 480px;
+  height: 38px;
+  border: 1px solid red;
+  border-right-style: none;
+  border-radius: 0 5px 5px 0; }
+  #chou div {
+    float: left;
+    width: 60px;
+    heigth: 34px;
+    line-height: 34px;
+    text-align: center;
+    color: #ff0077;
+    font-size: 12px;
+    background-image: url(../images/jiantou.png);
+    background-repeat: no-repeat;
+    background-position: center right;
+    background-position-x: right;
+    background-position-y: center; }
+  #chou #int1 {
+    width: 315px;
+    height: 34px;
+    border-style: none; }
+  #chou #int2 {
+    width: 100px;
+    height: 38px;
+    background: #ff177b;
+    color: #ffffff;
+    font-size: 16px;
+    border-radius: 0 5px 5px 0;
+    letter-spacing: 8px;
+    border-style: none; }
+  #chou ul li {
+    float: left;
+    font-size: 12px;
+    margin-right: 20px; }
+    #chou ul li {
+      margin-top: 10px; }
+
+.liebiao {
+  width: 1190px;
+  height: 40px;
+  display: flex; }
+  .liebiao div:nth-child(1) {
+    width: 257px;
+    height: 40px;
+    background: #ff0077 url(../images/123123.png) no-repeat left top;
+    font-size: 16px;
+    color: #FFFFFF;
+    line-height: 40px;
+    text-indent: 48px; }
+  .liebiao div:nth-child(2) {
+    width: 275px;
+    height: 40px;
+    font-size: 16px;
+    line-height: 40px;
+    text-align: center; }
+    .liebiao div:nth-child(2) a {
+      margin: 0 32px; }
+
+._zuo {
+  width: 275px;
+  height: 441px;
+  background: red; }
+
+._zhong img {
+  display: block;
+  width: 768px;
+  height: 440px; }
+
+._you div:nth-child(1) {
+  width: 166px;
+  height: 205px;
+  background: #ffe0df;
+  margin: 10px 0; }
+
+._you div:nth-child(2) {
+  width: 166px;
+  height: 205px;
+  background: #ffe0df;
+  margin: 10px 0;
+  overflow: hidden; }
+  ._you div:nth-child(2) p:first-child {
+    text-align: center;
+    font-size: 16px;
+    margin-top: 20px; }
+  ._you div:nth-child(2) p:last-child {
+    text-align: center;
+    font-size: 12px;
+    margin-top: 10px; }
+
+#pig {
+  width: 1190px;
+  height: 441px;
+  background: #ff6261;
+  margin: 0 auto;
+  display: flex; }
+
+#touxiang {
+  width: 72px;
+  height: 72px;
+  background: deeppink url(../images/tou.png) no-repeat 5px top;
+  border-radius: 50%;
+  margin: 0 48px; }
+
+#touxiang + p {
+  font-size: 12px;
+  text-align: center; }
+
+#touxiang ~ a {
+  display: block;
+  width: 73px;
+  height: 25px;
+  color: darkmagenta;
+  border: 1px solid pink;
+  margin: 10px 48px;
+  line-height: 25px;
+  text-align: center;
+  font-size: 12px; }
