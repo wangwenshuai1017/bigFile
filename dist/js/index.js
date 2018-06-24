@@ -1,0 +1,29 @@
+$(function(){
+	$("#khfw").mouseover(function(){
+		$("#mmp").css("display","block")
+	})
+	$("#khfw").mouseout(function(){
+		$("#mmp").css("display","none")
+	})
+	$("#sjht").mouseover(function(){
+		$("#tmd").css("display","block")
+	})
+	$("#sjht").mouseout(function(){
+		$("#tmd").css("display","none")
+	})
+	//什么鬼的这是？？？
+	$("#mmp").mouseover(function(){
+		$("#mmp").css("display","block")
+	})
+	$("#mmp").mouseout(function(){
+		$("#mmp").css("display","none")
+	})
+	$("#tmd").mouseover(function(){
+		$("#tmd").css("display","block")
+	})
+	$("#tmd").mouseout(function(){
+		$("#tmd").css("display","none")
+	})
+	var oint1 = document.getElementById("int1");
+	
+})
